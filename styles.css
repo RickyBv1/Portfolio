@@ -28,6 +28,7 @@ header {
 
 a:not(footer a) {
     color: var(--color-background);
+    font-weight: bold;
     text-decoration: none;
     background-color: var(--color-accent-color);
     border-radius: 5px;
@@ -46,6 +47,60 @@ header img {
 
 main {
     grid-area: main;
+}
+
+#cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 314px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.technology {
+    margin-left: 5px;
+    transition: 0.2s;
+    user-select: none;
+}
+
+.technology:hover {
+    color: var(--color-accent-color);
+}
+
+.project img {
+    height: 150px;
+    object-fit: cover;
+    filter: grayscale(0.8);
+    transition: 0.3s;
+}
+
+.project:hover img {
+    filter: grayscale(0);
+}
+
+.project div {
+    margin: 0 20px;
+}
+
+.project a {
+    margin-top: auto;
+    text-align: center;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.card {
+    background-color: var(--color-card-background);
+    border-radius: 5px;
 }
 
 aside {
