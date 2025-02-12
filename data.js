@@ -1,24 +1,31 @@
 const projects = [
     {
         title: "Tic-Tac-Toe Online",
-        description: "Third example description",
+        description: "Online multiplayer game made with Angular 19, NodeJs and Socket.IO",
         link: "https://tic-tac-toe-online-ricky.netlify.app/",
         image: "tic-tac-toe.png",
-        technologies: ["Angular", "Typescript", "CSS", "Socket.io"]
+        technologies: ["Angular ", "Typescript ", "SCSS ", "Socket.io "]
     },
     {
         title: "E-Commerce",
-        description: "Second example description",
+        description: "Single page E-Commerce app made with Angular 19 and Typescript",
         link: "https://github.com/RickyBv1/food-delivery",
         image: "e-commerce.png",
-        technologies: ["Angular", "CSS", "Typescript"]
+        technologies: ["Angular ", "SCSS ", "Typescript "]
     },
     {
         title: "Pokedex",
-        description: "Example description",
+        description: "Tool that consumes PokeAPI to see the information of different types of pokemons",
         link: "https://github.com/RickyBv1/Pokedex",
         image: "pokedex.png",
-        technologies: ["Angular", "CSS", "PokeAPI"]
+        technologies: ["Angular ", "SCSS ", "PokeAPI "]
+    },
+    {
+        title: "Portfolio",
+        description: "This page, made to show all the projects that I do or will be doing",
+        link: "https://github.com/RickyBv1/Portfolio",
+        image: "portfolio.png",
+        technologies: ["HTML ", "CSS ", "Javascript "]
     },
 ]
 
@@ -32,16 +39,16 @@ const personalInfo = {
             new Date(new Date() - new Date("2001/11/22")).getFullYear()-1970 + " Years old",
         ],
     ],
-    lenguajes: [
-        ["Spanish", "Native"], ["English", "Level: C1"],
+    languages: [
+        ["Spanish", "Native"], ["English", "C1 level"],
     ],
     technologies: [
-        ["HTML", 3], ["CSS", 3], ["Javascript", 3], ["Typescript", 3], ["Angular", 3],
+        ["HTML", 1], ["CSS", 4], ["Javascript", 1], ["Typescript", 3], ["Angular", 3],
     ],
     media: [
         ["github", "https://github.com/RickyBv1"],
-        ["instagram", ""],
-        ["X", ""],
-        ["facebook", ""],
+        ["X", "https://x.com/Bv1Ricky"],
+        ["instagram", "https://www.instagram.com/rickycortes24/"],
+        ["facebook", "https://www.facebook.com/ricardo.cortesrugbier"],
     ]
 };
