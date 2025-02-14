@@ -14,6 +14,13 @@ const projects = [
         technologies: ["Angular ", "SCSS ", "Typescript "]
     },
     {
+        title: "Log In form",
+        description: "log in form made with html, css, Javascript and using NodeJs, dotenv  and express",
+        link: "https://github.com/RickyBv1/LogIn",
+        image: "login.png",
+        technologies: ["HTML ", "CSS ", "Javascript "]
+    },
+    {
         title: "Pokedex",
         description: "Tool that consumes PokeAPI to see the information of different types of pokemons",
         link: "https://github.com/RickyBv1/Pokedex",
