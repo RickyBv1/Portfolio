@@ -85,15 +85,15 @@ const getSocialMedia = (social) => {
     const urlBase = "/img/icons/";
     switch (social) {
         case "instagram":
-            return urlBase + "instagram.svg";
+            return urlBase + "instagram.png";
         case "facebook":
-            return urlBase + "facebook.svg";
+            return urlBase + "facebook.png";
         case "X":
-            return urlBase + "X-logo.svg";
+            return urlBase + "X-logo.png";
         case "github":
-            return urlBase + "github.svg";
+            return urlBase + "github.png";
         default:
-            return urlBase + "default.svg";
+            return urlBase + "default.png";
     }
 }
 
