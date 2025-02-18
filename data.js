@@ -15,7 +15,7 @@ const projects = [
     },
     {
         title: "Random roulette",
-        description: "Made for random gifts exchanges events like secret santa made with the ionic library",
+        description: "Made for random gifts exchanges events like secret santa made with the ionic framework",
         link: "https://github.com/RickyBv1/Random-roulette",
         image: "random-roulette.png",
         technologies: ["Angular ", "SCSS ", "Typescript ", "Ionic "]

@@ -17,7 +17,7 @@ const getTechnologies = (technologies) => {
         <p>Tecnologías: ${getTechnologies(project.technologies)}</p>
     </div>
 
-    <a ${project.link ? 'href=' + project.link : "class=disabled"} target="_blank">See project</a>
+    <a ${project.link ? 'href=' + project.link : "class=disabled"} target="_blank">Watch the repository</a>
 `;
 
 const makePresentation = () => {
