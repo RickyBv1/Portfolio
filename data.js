@@ -14,6 +14,13 @@ const projects = [
         technologies: ["Angular ", "SCSS ", "Typescript "]
     },
     {
+        title: "Random roulette",
+        description: "Made for random gifts exchanges events like secret santa made with the ionic library",
+        link: "https://github.com/RickyBv1/Random-roulette",
+        image: "random-roulette.png",
+        technologies: ["Angular ", "SCSS ", "Typescript ", "Ionic "]
+    },
+    {
         title: "Log In form",
         description: "log in form made with html, css, Javascript and using NodeJs, dotenv  and express",
         link: "https://github.com/RickyBv1/LogIn",
@@ -50,7 +57,7 @@ const personalInfo = {
         ["Spanish", "Native"], ["English", "C1 level"],
     ],
     technologies: [
-        ["HTML", 1], ["CSS", 4], ["Javascript", 1], ["Typescript", 3], ["Angular", 3],
+        ["HTML", 2], ["CSS", 5], ["Javascript", 2], ["Typescript", 4], ["Angular", 4],
     ],
     media: [
         ["github", "https://github.com/RickyBv1"],
