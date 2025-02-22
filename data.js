@@ -35,6 +35,13 @@ const projects = [
         technologies: ["Angular ", "SCSS ", "PokeAPI "]
     },
     {
+        title: "Calculator",
+        description: "Basic calculator that can be used both by clicking the screen or with the keyboard made with html, css and javascript",
+        link: "https://github.com/RickyBv1/Calculator",
+        image: "calculator.png",
+        technologies: ["HTML ", "CSS ", "Javascript "]
+    },
+    {
         title: "Portfolio",
         description: "This page, made to show all the projects that I do or will be doing",
         link: "https://github.com/RickyBv1/Portfolio",
@@ -57,7 +64,7 @@ const personalInfo = {
         ["Spanish", "Native"], ["English", "C1 level"],
     ],
     technologies: [
-        ["HTML", 2], ["CSS", 5], ["Javascript", 2], ["Typescript", 4], ["Angular", 4],
+        ["HTML", 3], ["CSS", 6], ["Javascript", 3], ["Typescript", 4], ["Angular", 4],
     ],
     media: [
         ["github", "https://github.com/RickyBv1"],
