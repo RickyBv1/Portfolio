@@ -82,7 +82,7 @@ const makeMedia = () => {
 }
 
 const getSocialMedia = (social) => {
-    const urlBase = "/img/icons/";
+    const urlBase = "./img/icons/";
     switch (social) {
         case "instagram":
             return urlBase + "instagram.png";
