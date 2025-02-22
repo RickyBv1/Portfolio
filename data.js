@@ -42,6 +42,13 @@ const projects = [
         technologies: ["HTML ", "CSS ", "Javascript "]
     },
     {
+        title: "Digital Clock",
+        description: "Digital clock that shows live the current time of your current time zone made with a seven-segment display",
+        link: "https://github.com/RickyBv1/Digital-clock",
+        image: "digital-clock.png",
+        technologies: ["HTML ", "CSS ", "Javascript "]
+    },
+    {
         title: "Portfolio",
         description: "This page, made to show all the projects that I do or will be doing",
         link: "https://github.com/RickyBv1/Portfolio",
@@ -64,7 +71,7 @@ const personalInfo = {
         ["Spanish", "Native"], ["English", "C1 level"],
     ],
     technologies: [
-        ["HTML", 3], ["CSS", 6], ["Javascript", 3], ["Typescript", 4], ["Angular", 4],
+        ["HTML", 4], ["CSS", 7], ["Javascript", 4], ["Typescript", 4], ["Angular", 4],
     ],
     media: [
         ["github", "https://github.com/RickyBv1"],
