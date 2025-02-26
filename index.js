@@ -14,7 +14,7 @@ const getTechnologies = (technologies) => {
     <div>
         <h3>${project.title}</h3>
         <p>${project.description}</p>
-        <p>Tecnologías: ${getTechnologies(project.technologies)}</p>
+        <p>Technologies: ${getTechnologies(project.technologies)}</p>
     </div>
 
     <a ${project.link ? 'href=' + project.link : "class=disabled"} target="_blank">Watch the repository</a>
