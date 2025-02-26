@@ -35,6 +35,13 @@ const projects = [
         technologies: ["Angular ", "SCSS ", "PokeAPI "]
     },
     {
+        title: "Typing test",
+        description: "Typing test that shows how fast can yoy type different words in a minute, and also shows how manny letters you typed and how many mistakes you made",
+        link: "https://github.com/RickyBv1/Typing-test",
+        image: "typing-test.png",
+        technologies: ["HTML ", "CSS ", "Javascript "]
+    },
+    {
         title: "Calculator",
         description: "Basic calculator that can be used both by clicking the screen or with the keyboard made with html, css and javascript",
         link: "https://github.com/RickyBv1/Calculator",
@@ -71,7 +78,7 @@ const personalInfo = {
         ["Spanish", "Native"], ["English", "C1 level"],
     ],
     technologies: [
-        ["HTML", 4], ["CSS", 7], ["Javascript", 4], ["Typescript", 4], ["Angular", 4],
+        ["HTML", 5], ["CSS", 8], ["Javascript", 5], ["Typescript", 4], ["Angular", 4],
     ],
     media: [
         ["github", "https://github.com/RickyBv1"],
