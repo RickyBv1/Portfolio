@@ -21,6 +21,13 @@ const projects = [
         technologies: ["Angular ", "SCSS ", "Typescript ", "Ionic "]
     },
     {
+        title: "Pong game",
+        description: 'Retro "Pong" game that can be played in local multiplayer with 2 people or just one person against the CPU',
+        link: "https://github.com/RickyBv1/Pong",
+        image: "pong.png",
+        technologies: ["HTML ", "CSS ", "Javascript "]
+    },
+    {
         title: "Log In form",
         description: "log in form made with html, css, Javascript and using NodeJs, dotenv  and express",
         link: "https://github.com/RickyBv1/LogIn",
@@ -78,7 +85,7 @@ const personalInfo = {
         ["Spanish", "Native"], ["English", "C1 level"],
     ],
     technologies: [
-        ["HTML", 5], ["CSS", 8], ["Javascript", 5], ["Typescript", 4], ["Angular", 4],
+        ["HTML", 6], ["CSS", 10], ["Javascript", 6], ["Typescript", 4], ["Angular", 4],
     ],
     media: [
         ["github", "https://github.com/RickyBv1"],
